@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("Background.jpg"); 
+	background-attachment: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.4);
+	font-family: "Raleway",Sans-serif;
+	font-weight: 100;
+}
+
+div.header {
+	padding: 20px;
+}
+
+.logo {
+	flex: 1;
+	color: white;
+}
+
+.logo a {
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	display: inline-block;
+}
+
+.logo a:hover {
+	color: lightblue;
+	transform: scale(1.05);
+	transition: 2s;
+}
+
+.nav {
+	text-align: right;
+	text-decoration: none;
+	flex: 6;
+	height: 25px;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 10px;
+	display: inline-block;
+}
+.nav a:hover {
+	color: lightblue;
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.BodyHome {
+	text-align: center;
+	color: white;
+}
+
+.BodyHead {
+	font-size: 5px;
+	font-family: "Raleway",Sans-serif;
+	font-weight: 100;
+}
+
+.BodyHead p {
+	font-size: 130px;
+	text-shadow: 
+}
+
+.more {
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 50px;
+	background-color: CadetBlue;
+	text-align: center;
+	justify-content: center;
+	border-radius: 20px;
+}
+.more a:hover {
+	color: lightblue;
+}
+.more:hover {
+	color: lightblue;
+	transform: scale(1.1);
+	transition: 2s;
+}
+.more a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.footer {
+	padding: 20px;
+	background-color: CadetBlue;
+}
+.footer p {
+	font-size: 12px;
+	color: white;
+}
+
+.intro p {
+	font-size: 30px;
+}
+
+.BodyHomeAbout p {
+	margin-left: 750px
+}
+
+.BodyHomeAbout a {
+	background-image: linear-gradient(45deg, CadetBlue, green);
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 30px;
+}
+
+.BodyHomeAbout a:hover {
+	background-image: linear-gradient(45deg, lightgreen, SteelBlue);
+}
+
